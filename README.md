@@ -89,8 +89,6 @@ Example:
 curl -X POST localhost:8080/api/shorten --data-urlencode "url=https://leetcode.com"
 ```
 
-## Resume bullets
-
 - Built a thread-safe URL shortener in C++17 from scratch: raw-socket HTTP
   server (no framework), base62 ID generation, custom aliases, and
   TTL-based expiration, backed by a flat-file store guarded by a
